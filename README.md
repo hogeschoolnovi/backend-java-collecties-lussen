@@ -37,7 +37,7 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 2. Maak in je main methode een Integer array genaamd `numeric` die je vult met de nummers 1,2,3,4,5,6,7,8,9,0.
 3. Maak in je main methode een String array genaamd `alphabetic` die je vult met de String varianten van de nummers uit stap 1, dus: "een", "twee", ... etc ..., "negen", "nul".
 4. Maak een nieuwe class aan en noem deze `Translator`.
-5. Maak in de Translator class een `Hashmap<Integer,String>` variabele met de naam `numericAlpha`.
+5. Maak in de Translator class een `HashMap<Integer,String>` variabele met de naam `numericAlpha`.
 6. Maak in de Translator class een constructor die de volgende parameters krijgt: `(String[] alphabetic, Integer[] numeric)`.
 7. Schrijf in de constructor een for-loop die begint bij 0 en doorgaat tot de lengte van de numeric/alphabetic array (maakt niet uit welke, ze zijn even lang).
 8. Voeg in de body van de for-loop een nieuwe entry toe aan de HashMap met de correcte waardes uit `numeric` en `alphabetic`. Gebruik de `i` variabele uit je for-loop om de correcte waardes uit de arrays te halen.
