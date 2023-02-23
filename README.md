@@ -4,7 +4,7 @@ Welkom bij de derde huiswerkopdracht die jullie gaan maken voor de Backend leerl
 ## Clonen van dit project
 1. Clone dit project naar je eigen computer door een nieuw project te maken met de optie `Project from version control` of `get from VCS`, zoals je in de git-workshop geleerd hebt.
 2. Ontkoppel de remote met `git remote remove origin`.
-3. Maak een nieuwe repository op je eigen github pagina en koppel die aan dit project met `git remote add [link naar jou github repo]`
+3. Maak een nieuwe repository op je eigen github pagina en koppel die aan dit project met `git remote add origin [link naar jou github repo]`
 4. Zorg dat je main-branch ook echt "main" heet met `git branch -M main`.
 5. Push vervolgens je de (originele) main branch naar je eigen github met `git push -u origin main`.
 6. Maak nu een nieuwe huiswerk-branch aan om je huiswerk op te maken met `git checkout -b [naam van je nieuwe branch]`
