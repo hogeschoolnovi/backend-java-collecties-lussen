@@ -61,5 +61,5 @@ Deze opdracht is los staand van de vorige opdracht. Mastermind is een spel waarb
 2. maak een methode die een HashSet als parameter inneemt en een string van 4 nummers returned. _Tip:_ Maak een lege String variable (of StringBuilder). Gebruik een for-loop om door de HashSet te loopen om zo elke element uit de Set toe te voegen aan de String (of StringBuilder).
 3. voeg de string van 4 nummers als parameter toe bij het aanroepen van de methode "feedback".
 **Bonus-bonus:** maak de methode zo dat je vaker kan raden.
-4. Zet in de comments erbij waarom de Hashset eigenlijk geen goede keuze is geweest voor deze opdracht.
+4. Zet onderaan een comment erbij waarom de Hashset eigenlijk geen goede keuze is geweest voor deze opdracht.
  
