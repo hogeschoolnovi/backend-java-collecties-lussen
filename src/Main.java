@@ -22,7 +22,8 @@ public class Main {
     public static void feedback(String stringnumber) {
         Scanner scanner = new Scanner(System.in);
         StringBuilder feedback = new StringBuilder();
-        System.out.println("take a guess");
+        System.out.println("+ = juiste nummer op de juiste plek, O = juiste nummer verkeerde plek, X = verkeerde nummer");
+        System.out.println("Doe een gok, Let op vul 4 getallen in.");
         String guess = scanner.nextLine();
         if (Objects.equals(guess, stringnumber)) {
             System.out.println("gefeliciteerd je hebt het goed");
